@@ -18,6 +18,11 @@ app.get('/cart', (req, res) => {
     res.render('cart');
 })
 
+app.get('/silver', (req, res) => {
+    res.render('silver');
+})
+
+
 
 app.listen(PORT, () => {
     console.log(`App started on port ${PORT}`)

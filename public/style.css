@@ -3,3 +3,10 @@
     font-size: 35px;
     font-weight: bold
 }
+button{
+    padding: 12px;
+    width: 100%;
+}
+.container{
+    background-color: #FFCFD2;
+}

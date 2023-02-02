@@ -12,23 +12,27 @@
 
     <title>Shoppoing</title>
 </head>
-<nav>
+<nav class="nav-extended">
     <div class="nav-wrapper">
-        
-        <a href="/" class="brand-logo">HOME OF BLING</a>
-        <ul class="right hide-on-med-and-down">
-
-            <li><a href="sass.html"><i class="material-icons">search</i></a></li>
-            <li><a href=""> <i class="medium material-icons">account_circle</i></a></li>
-            <li><a href="/cart"> <i class="material-icons">shopping_cart </i></a> </li>
-            <li><a href="badges.html"><i class="material-icons">logout</i></a></li>
-            {{!-- <li><a href="collapsible.html"><i class="material-icons">cart </i></a></li> --}}
-            {{!-- <li><a href="/cart">
-            <li class="material-icons"> add_shopping_cart</li> <span class="new badge">4</span></a></li> --}}
-        </ul>
-
+      <a href="/" class="brand-logo">Bling Bling</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+        <li><a href=""> <i class="medium material-icons">account_circle</i></a></li>
+        <li><a href="/cart"> <i class="material-icons">shopping_cart </i></a> </li>
+        <li><a href="badges.html"><i class="material-icons">logout</i></a></li>
+      </ul>
     </div>
-</nav>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a class="active" href="#test1">Gold</a></li>
+        <li class="tab"><a class="active" href="/silver">Silver</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+ 
 {{{body}}}
 
 </html>
